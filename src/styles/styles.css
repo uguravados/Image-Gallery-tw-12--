@@ -1,0 +1,42 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+.title{
+
+    text-align: center;
+    color:blue ;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem auto;
+}
+
+
+
+div{
+    text-align: center;
+    color: blue;
+    
+    
+}
+img{
+    width: 300px;
+    height: 350px;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 8px #888888;
+ 
+}
+    
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(2deg);
+    transition: 2s; 
+   
+   
+}
+
+
